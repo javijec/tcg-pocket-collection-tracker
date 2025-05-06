@@ -9,11 +9,9 @@ interface GradientCardProps {
   otherPacks?: { packName: string; percentage: number }[]
 }
 
-export function GradientCard({ title, packNames, percentage, className, backgroundColor, otherPacks }: GradientCardProps) {
+export function GradientCard({ title, percentage, className, backgroundColor, otherPacks }: GradientCardProps) {
   const { t } = useTranslation(['gradient-card', 'common/packs'])
   const chancePercentage = Math.round(percentage * 1000) / 10
-
-  console.log('GradientCard', { title, packNames, percentage, className, backgroundColor, otherPacks })
 
   return (
     <div
