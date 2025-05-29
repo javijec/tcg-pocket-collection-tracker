@@ -1,4 +1,4 @@
-import{r as $,aA as $e,u as Ie,j as V}from"./index-DxUZuhlo.js";import{C as ye}from"./Card-CEGxwZ2f.js";function le(){const{innerWidth:e,innerHeight:i}=window;return{width:e,height:i}}function Ve(){const[e,i]=$.useState(le());return $.useEffect(()=>{function t(){i(le())}return window.addEventListener("resize",t),()=>window.removeEventListener("resize",t)},[]),e}/**
+import{r as $,aA as $e,u as Ie,j as V}from"./index-CCRXiBiT.js";import{C as ye}from"./Card-B2FrcxKU.js";function le(){const{innerWidth:e,innerHeight:i}=window;return{width:e,height:i}}function Ve(){const[e,i]=$.useState(le());return $.useEffect(()=>{function t(){i(le())}return window.addEventListener("resize",t),()=>window.removeEventListener("resize",t)},[]),e}/**
    * table-core
    *
    * Copyright (c) TanStack
